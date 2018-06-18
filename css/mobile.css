@@ -1,0 +1,34 @@
+#idx-landing {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: #5b5b5b;
+  background-image:
+  url("../assets/img/greg-shield-1810-unsplash-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+}
+
+#idx-landing > div {
+  height: 14vh;
+}
+
+.idx-center {
+  display: grid;
+  justify-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
