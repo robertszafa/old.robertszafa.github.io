@@ -2,6 +2,7 @@ body {
   display: grid;
 }
 
+/* HEADER */
 #header {
   position: fixed;
   width: 100%;
@@ -10,6 +11,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
 }
 
 header div {
@@ -19,12 +22,27 @@ header div {
   margin: 0 1rem;
 }
 
-#nav-center {
+header a, header a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #8A9BA5;
+}
+
+#nav-left {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+header a {
+  padding: 0.7rem;;
+  margin: 0.5rem;
+}
+
+/* LANDING */
 #idx-landing {
   height: 100vh;
   display: grid;
