@@ -2,6 +2,23 @@ body {
   display: grid;
 }
 
+#content {
+  display: grid;
+}
+
+.content {
+  height: 100vh;
+  display: grid;
+}
+
+.content:nth-child(odd) {
+  background-color: #1A595B;
+}
+
+.content:nth-child(even) {
+  background-color: #6C848B;
+}
+
 /* HEADER */
 #header {
   position: fixed;
@@ -68,12 +85,44 @@ header a {
   justify-items: center;
 }
 
-h1 {
+#idx-landing h1 {
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-h2 {
+#idx-landing h2 {
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: 100;
+}
+
+
+/* ABOUT ME */
+#about-me {
+  grid-template-columns: 2fr 3fr;
+  padding: 0 5rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#portrait-img {
+  border-radius: 100%;
+  padding: 1.5rem;
+}
+
+#about-text h4 {
+  padding-right: 10rem;
+  padding-bottom: 1.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+#about-text p {
+  padding-right: 10rem;
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
 }
