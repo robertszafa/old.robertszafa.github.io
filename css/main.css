@@ -1,5 +1,8 @@
 body {
   display: grid;
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
 }
 
 #content {
@@ -22,6 +25,10 @@ body {
 }
 
 /* HEADER */
+#mobile-menu-container {
+  display: none;
+}
+
 #header {
   position: fixed;
   width: 100vw;
@@ -30,8 +37,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
 }
 
 header div {
@@ -71,17 +76,13 @@ header a {
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
 }
 
 #landing > div {
   height: 14vh;
-}
-
-.center {
   display: grid;
   justify-items: center;
+  text-align: center;
 }
 
 #landing h1 {
@@ -97,11 +98,9 @@ header a {
 
 /* ABOUT ME */
 #about-me {
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 3fr 4fr;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
   text-align: center;
 }
 
@@ -130,8 +129,6 @@ header a {
   grid-template-rows: 2fr 4fr 1fr;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
   text-align: center;
 }
 
@@ -185,8 +182,6 @@ header a {
   grid-template-rows: 2fr 5fr;
   justify-content: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
 }
 
 #contact h2 {
@@ -264,8 +259,6 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  color: whitesmoke;
 }
 
 footer h3 {
