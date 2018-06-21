@@ -1,0 +1,50 @@
+#blog {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #E74C3C;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+}
+
+#blog h1 {
+  font-size: 5rem;
+}
+
+/* HEADER */
+#header {
+  position: fixed;
+  width: 100vw;
+  height: 2.8rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+
+#nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a:hover {
+  color: #8A9BA5;
+}
+
+header a {
+  padding: 0.7rem;;
+  margin: 0.5rem;
+}
