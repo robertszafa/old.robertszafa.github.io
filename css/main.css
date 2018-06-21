@@ -23,7 +23,7 @@ a, a:visited {
 
 .content:nth-child(even) {
   /* background-color: #ECF0F1; */
-  background-color: #3498DB;
+  background-color: #2980B9;
 }
 
 /* HEADER */
@@ -241,7 +241,7 @@ input[type=text], input[type=email] {
 }
 
 input[type=submit] {
-  background: #3498DB;
+  background: #2980B9;
   border-style: none;
   cursor: pointer;
   color: inherit;
@@ -260,11 +260,11 @@ input[type=submit]:hover {
 
 /* FOOTER */
 footer {
-  height: 20vh;
+  height: 15vh;
   width: 100vw;
-  background-color: #3498DB;
+  background-color: #2980B9;
   display: grid;
-  grid-auto-rows: 2fr 5fr;
+  grid-auto-rows: 2fr 4fr;
   grid-gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -274,17 +274,15 @@ footer {
 }
 
 footer h3 {
-  align-self: start;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 #awesome-icons {
-  align-self: start;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 2rem;
 }
 
 #awesome-icons a {
-  padding: 1rem;
+  padding: 0 1rem;
 }
