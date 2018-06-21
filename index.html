@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/css-reset.css">
   <link rel="stylesheet" href="css/main.css">
   <!-- <link rel="stylesheet" href="css/mobile.css" media="(max-width: 800px)"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <title>Robert Szafarczyk</title>
 </head>
 <body>
@@ -20,14 +21,14 @@
         <a href="#">Blog</a>
     </div>
     <div id="nav-right">
-        <a href="#">Contact Me</a>
+        <a href="#contact">Contact Me</a>
     </div>
   </header>
 
   <section id="idx-landing">
     <div class="idx-center">
       <h1>ROBERT&nbsp;SZAFARCZYK</h1>
-      <h2>A&nbsp;COMPUTER&nbsp;SCIENCE&nbsp;STUDENT AND TECHNOLOGY&nbsp;ENTHUSIAST</h2>
+      <h2>COMPUTER&nbsp;SCIENCE&nbsp;STUDENT AND TECHNOLOGY&nbsp;ENTHUSIAST</h2>
     </div>
   </section>
 
@@ -71,8 +72,45 @@
         <h3>More coming soon using Java, Python and other cool technologies...</h3>
       </div>
     </article>
+    <article class="content" id="contact">
+      <h2>Contact Me</h2>
+      <form action="//formspree.io/robertszafa@gmail.com" method="POST" id="contact-form">
+        <fieldset class="form-item" id="form-name">
+          <label for="name">Your name</label><br><br>
+          <input type="text" name="name" id="name">
+        </fieldset>
+        <fieldset class="form-item" id="form-email">
+          <label for="_replyto">Your email</label><br><br>
+          <input type="email" name="_replyto" id="_replyto" required>
+        </fieldset>
+        <fieldset class="form-item" id="form-message">
+            <label for="message">Your message</label><br><br>
+            <textarea name="message" id="message" required></textarea>
+        </fieldset>
+        <div id="send-container">
+          <input id="send-button" class="button-submit" type="submit" value="Send">
+        </div>
+      </form>
+    </article>
   </section>
-
-
+  <footer>
+    <div id="awesome-icons">
+      <a href="https://github.com/robertszafa">
+        <i class="fab fa-github-square fa-3x"></i>
+      </a>
+      <a href="https://twitter.com/robertszafa">
+        <i class="fab fa-twitter-square fa-3x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/robert-szafarczyk-90a244156/">
+        <i class="fab fa-linkedin fa-3x"></i>
+      </a>
+      <a href="#contact">
+        <i class="fas fa-envelope-square fa-3x"></i>
+      </a>
+    </div>
+    <h3>
+      Connect with me
+    </h3>
+  </footer>
 </body>
 </html>
