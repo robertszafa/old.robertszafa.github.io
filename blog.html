@@ -5,22 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/css-reset.css">
-  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/blog.css" media="(min-width: 900px)">
+  <link rel="stylesheet" href="css/blog-mobile.css" media="(max-width: 901px)">
   <title>Robert Szafarczyk</title>
 </head>
 <body id="blog">
   <header id="header">
     <div id="nav-left">
-        <a href="index.html">Robert Szafarczyk</a>
-        <a href="index.html#about-me">About Me</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="blog.html">Blog</a>
+      <a href="index.html#landing">Robert Szafarczyk</a>
+      <a href="index.html#about-me">About Me</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="blog.html">Blog</a>
     </div>
     <div id="nav-right">
-        <a href="index.html#contact">Contact Me</a>
+      <a href="index.html##contact">Contact Me</a>
+    </div>
+    <div id="mobile-menu-container">
+      <nav>
+        <button onclick="toggleMenu()" id="mobile-menu-button">
+          <i class="fas fa-bars fa-2x"></i>
+        </button>
+        <ul id="mobile-menu">
+          <li>
+            <a href="index.html#landing" onclick="toggleMenu()">Robert Szafarczyk</a>
+          </li>
+          <li>
+            <a href="index.html#about-me" onclick="toggleMenu()">About Me</a>
+          </li>
+          <li>
+            <a href="index.html#projects" onclick="toggleMenu()">Projects</a>
+          </li>
+          <li>
+            <a href="blog.html" onclick="toggleMenu()">Blog</a>
+          </li>
+          <li>
+            <a href="index.html#contact" onclick="toggleMenu()">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
   <h1>Coming soon.. maybe?</h1>
+
+  <script src="src/mobile-menu.js"></script>
 </body>
 </html>
