@@ -35,6 +35,10 @@
   width: 100%;
 }
 
+#mobile-menu-button {
+  color: inherit;
+}
+
 #mobile-menu-container nav button {
   padding: 1rem;
   align-self: start;
