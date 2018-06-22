@@ -10,8 +10,8 @@ body {
 }
 
 .content {
-  height: 100vh;
-  max-height: auto;
+  height: auto;
+  min-height: 100vh;
   width: 100vw;
   display: grid;
 }
@@ -241,7 +241,7 @@ input[type=text], input[type=email] {
   display: grid;
   justify-content: center;
   align-items: end;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 input[type=submit] {
@@ -253,13 +253,14 @@ input[type=submit] {
   font-weight: 400;
   height: 6vh;
   width: 12vh;
+  min-height: 50px;
+  min-width: 100px;
 }
 
 
 /* FOOTER */
 footer {
-  height: 15vh;
-  max-height: auto;
+  height: auto;
   width: 100vw;
   background-color: #2980B9;
   display: grid;
