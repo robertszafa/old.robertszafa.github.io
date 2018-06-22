@@ -27,6 +27,10 @@
   color: whitesmoke;
 }
 
+#mobile-menu-container {
+  display: none;
+}
+
 header div {
   display: flex;
   justify-content: space-between;
