@@ -109,6 +109,10 @@ header a {
   padding: 1.5rem;
 }
 
+#portrait-img-mobile {
+  display: none;
+}
+
 #about-text h4 {
   padding-right: 10rem;
   padding-bottom: 1.5rem;
