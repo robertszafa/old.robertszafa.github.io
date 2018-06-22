@@ -46,11 +46,12 @@ body {
   width: 100%;
 }
 
-#mobile-menu-container nav a {
+#mobile-menu-container nav button {
   padding: 1rem;
   align-self: start;
   display: grid;
   cursor: pointer;
+  color: inherit;
 }
 
 #mobile-menu {

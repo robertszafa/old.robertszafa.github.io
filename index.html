@@ -24,24 +24,24 @@
     </div>
     <div id="mobile-menu-container">
       <nav>
-        <a href="#" id="mobile-menu-button">
+        <button onclick="toggleMenu()" id="mobile-menu-button">
           <i class="fas fa-bars fa-2x"></i>
-        </a>
+        </button>
         <ul id="mobile-menu">
           <li>
-            <a href="#landing">Robert Szafarczyk</a>
+            <a href="#landing" onclick="toggleMenu()">Robert Szafarczyk</a>
           </li>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#about-me" onclick="toggleMenu()">About Me</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onclick="toggleMenu()">Projects</a>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
+            <a href="blog.html" onclick="toggleMenu()">Blog</a>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact" onclick="toggleMenu()">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -138,5 +138,7 @@
       Connect with me
     </h3>
   </footer>
+
+  <script src="src/mobile-menu.js"></script>
 </body>
 </html>
