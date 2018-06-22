@@ -51,6 +51,8 @@ body {
   align-self: start;
   display: grid;
   cursor: pointer;
+  background-color: inherit;
+  border: 0;
 }
 
 #mobile-menu-button {
