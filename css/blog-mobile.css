@@ -45,6 +45,8 @@
   display: grid;
   cursor: pointer;
   color: inherit;
+  background-color: inherit;
+  border: 0;
 }
 
 #mobile-menu {
