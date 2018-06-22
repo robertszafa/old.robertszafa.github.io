@@ -7,11 +7,11 @@ body {
 
 #content {
   display: grid;
-  max-height: auto;
 }
 
 .content {
   height: 100vh;
+  max-height: auto;
   width: 100vw;
   display: grid;
 }
@@ -168,7 +168,7 @@ body {
 
 .project {
   padding: 2rem;
-  margin: 0 5rem;
+  margin: 0 1rem;
   box-shadow: 0 1px 2px 0px rgba(245, 245, 245, 0.2);
   border: 1px solid rgba(245, 245, 245, 0.2);
   transition: 0.3s;
@@ -204,9 +204,6 @@ body {
   justify-content: center;
   align-items: center;
   align-self: center;
-  padding: 1rem 2rem;
-  box-shadow: 0 1px 2px 0px rgba(245, 245, 245, 0.2);
-  border: 1px solid rgba(245, 245, 245, 0.2);
 }
 
 .form-item {
@@ -258,11 +255,12 @@ input[type=submit] {
 /* FOOTER */
 footer {
   height: 15vh;
+  max-height: auto;
   width: 100vw;
   background-color: #2980B9;
   display: grid;
   grid-auto-rows: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 0.3rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -271,7 +269,7 @@ footer {
 #awesome-icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 2rem;
+  padding-top: 0.3rem;
 }
 
 #awesome-icons a {
