@@ -169,12 +169,12 @@ header a {
   font-size: 4rem;
 }
 
-#project-website h3 {
+.project h3 {
   font-size: 2rem;
   padding-bottom: 1rem;
 }
 
-#project-website p {
+.project p {
   font-size: 1rem;
   padding-top: 1rem;
   font-weight: 100;
