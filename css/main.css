@@ -67,18 +67,15 @@ header a {
   height: 100vh;
   width: 100vw;
   display: grid;
+  grid-template-rows: 3fr 1fr;
   align-items: center;
   justify-items: center;
-  background-color: #8A9BA5;
-  background-image:
-  url("../assets/img/greg-shield-1810-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  background-color: #2980B9;
   background-attachment: fixed;
 }
 
-#landing > div {
+
+#landing-text {
   height: 14vh;
   display: grid;
   justify-items: center;
@@ -94,7 +91,6 @@ header a {
   font-size: 1.2rem;
   font-weight: 200;
 }
-
 
 /* ABOUT ME */
 #about-me {

@@ -1,5 +1,4 @@
 # My Personal Website
-I have created this responsive website to play around with HTML and CSS. 
-It also uses 4 lines of JavaScript to add functionality to the menu used for mobile. <br>
-The plan is to use this website to showcast my future projects.
-
+I have created this responsive website to play around with HTML and CSS.
+I have also used JavaScript to draw the fractal tree on the landing page.<br>
+The plan is to use this website to showcase my future projects.
