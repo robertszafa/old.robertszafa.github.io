@@ -19,6 +19,9 @@ function growTree() {
       }
     }
   }
+  else {
+    noLoop();
+  }
 }
 
 function draw() {
